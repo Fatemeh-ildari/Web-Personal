@@ -1,0 +1,477 @@
+#main {
+  width: 100%;
+  display: flex;
+  font-family: "Bitter", serif;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Ephesis", cursive;
+  font-family: "Handlee", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Lora", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Preahvihear", sans-serif;
+  cursor: default;
+}
+#main > .aside {
+  min-height: 100vh;
+}
+#main > .aside > nav {
+  width: 100%;
+  height: 100vh;
+  background-color: #28292a;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+#main > .aside > nav > .row > ul {
+  width: 100%;
+  list-style-type: none;
+}
+#main > .aside > nav > .row > ul > li {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 80px;
+}
+#main > .aside > nav > .row > ul > li > a {
+  width: 50%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main > .aside > nav > .row > ul > li > a > i {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+}
+#main > .aside > nav > .row > ul > li > a:hover i {
+  background-color: #004a77;
+  color: #c2e7ff;
+}
+#main > .main_sess {
+  background-color: #1f1f1f;
+  position: relative;
+}
+#main > .main_sess > section {
+  width: 100%;
+}
+#main > .main_sess > section > .row .menu_mobile {
+  height: 50px;
+  background-color: #28292a;
+}
+#main > .main_sess > section > .row .menu_mobile > figure {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+#main > .main_sess > section > .row .menu_mobile > figure img {
+  width: 100%;
+  height: 100%;
+}
+#main > .main_sess > section > .row .menu_mobile > a {
+  background-color: #004a77;
+  border-radius: 5px;
+}
+#main > .main_sess > section > .row .main_page {
+  background-color: #1f1f1f;
+}
+#main > .main_sess > section > .row .main_page > .row > figure {
+  display: flex;
+  justify-content: end;
+}
+#main > .main_sess > section > .row .main_page > .row > figure > img {
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+}
+#main > .main_sess > section > .row .main_page > .row > article {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#main > .main_sess > section > .row .main_page > .row > article > button {
+  width: 150px;
+  height: 40px;
+  background-color: #004a77;
+  color: #c2e7ff;
+  border-radius: 10px;
+}
+#main > .main_sess > section > .row .main_page > .row > article > button:hover {
+  background-color: #c2e7ff;
+  color: #004A77;
+}
+#main > .main_sess > section > .row .about_me {
+  background-color: #1f1f1f;
+}
+#main > .main_sess > section > .row .about_me .row > .i_am > * {
+  color: white;
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 577px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure {
+    height: 400px;
+  }
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  #main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(1) > figure > img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(2) > a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  background-color: #0F0F0F;
+  margin: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.76);
+  border-radius: 10px;
+  color: white;
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(2) > a:hover {
+  color: #004A77;
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(2) > a:hover i {
+  color: #004A77;
+}
+#main > .main_sess > section > .row .about_me .row > .img_icon > div:nth-of-type(2) > a > i {
+  font-size: 30px;
+  color: white;
+}
+#main > .main_sess > section > .row > .skill {
+  background-color: #1f1f1f;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div > span {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div > svg {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  fill: rgba(0, 255, 255, 0);
+  transition: 3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(1) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 130px;
+  stroke-dasharray: 410px 50px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(1) > svg > circle:hover {
+  animation: anime1 1s linear forwards;
+}
+@keyframes anime1 {
+  from {
+    stroke-dasharray: 0px 460px;
+  }
+  to {
+    stroke-dasharray: 410px 50px;
+  }
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(2) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 130px;
+  stroke-dasharray: 368px 92px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(2) > svg > circle:hover {
+  animation: anime2 1s linear forwards;
+}
+@keyframes anime2 {
+  from {
+    stroke-dasharray: 0px 460px;
+  }
+  to {
+    stroke-dasharray: 368px 92px;
+  }
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(3) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 120px;
+  stroke-dasharray: 460px 0px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(3) > svg > circle:hover {
+  animation: anime3 1s linear forwards;
+}
+@keyframes anime3 {
+  from {
+    stroke-dasharray: 0px 460px;
+  }
+  to {
+    stroke-dasharray: 460px 0px;
+  }
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(4) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 135px;
+  stroke-dasharray: 280px 180px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(4) > svg > circle:hover {
+  animation: anime4 1s linear forwards;
+}
+@keyframes anime4 {
+  from {
+    stroke-dasharray: 0px 460px;
+  }
+  to {
+    stroke-dasharray: 280px 180px;
+  }
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(5) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 125px;
+  stroke-dasharray: 320px 130px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(5) > svg > circle:hover {
+  animation: anime5 1s linear forwards;
+}
+@keyframes anime5 {
+  from {
+    stroke-dasharray: 0px 450px;
+  }
+  to {
+    stroke-dasharray: 320px 130px;
+  }
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(6) > svg > circle {
+  stroke-width: 7px;
+  stroke: #c2e7ff;
+  stroke-dashoffset: 135px;
+  stroke-dasharray: 410px 50px;
+  stroke-linecap: round;
+}
+#main > .main_sess > section > .row > .skill > .row > .skill_me > div:nth-of-type(6) > svg > circle:hover {
+  animation: anime6 1s linear forwards;
+}
+@keyframes anime6 {
+  from {
+    stroke-dasharray: 0px 460px;
+  }
+  to {
+    stroke-dasharray: 410px 50px;
+  }
+}
+#main > .main_sess > section .portfolio {
+  background-color: #1f1f1f;
+}
+#main > .main_sess > section .portfolio .row div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#main > .main_sess > section .portfolio .row div > figure {
+  width: 310px;
+  height: 200px;
+  border: 2px solid rgb(56, 56, 56);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #0F0F0F;
+}
+#main > .main_sess > section .portfolio .row div > figure:hover {
+  box-shadow: 0px 0px 5px 5px #004A77;
+}
+#main > .main_sess > section .portfolio .row div > figure:hover figcaption {
+  background-color: rgb(32, 32, 32);
+}
+#main > .main_sess > section .portfolio .row div > figure:hover figcaption > span {
+  display: flex;
+}
+#main > .main_sess > section .portfolio .row div > figure:hover figcaption > a {
+  display: flex;
+}
+#main > .main_sess > section .portfolio .row div > figure > img {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+}
+#main > .main_sess > section .portfolio .row div > figure > figcaption {
+  width: 90%;
+  height: 70px;
+  background-color: rgba(32, 32, 32, 0);
+  border-radius: 10px;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main > .main_sess > section .portfolio .row div > figure > figcaption > span {
+  display: none;
+  font-size: 15px;
+  color: white;
+}
+#main > .main_sess > section .portfolio .row div > figure > figcaption > a {
+  text-decoration: none;
+  display: none;
+}
+#main > .main_sess > section .portfolio .row div > figure > figcaption > a > i {
+  color: #004A77;
+  font-size: 20px;
+}
+#main > .main_sess > section .portfolio .row div > figure > figcaption > a > i:hover {
+  color: #c2e7ff;
+  font-size: 25px;
+}
+#main > .main_sess > section .footer {
+  padding-bottom: 100px;
+  background-color: #1f1f1f;
+}
+#main > .main_sess > section .footer > .row > .contact > * {
+  color: white;
+}
+#main > .main_sess > section .footer > .row > .contact > div > div > i {
+  color: #004A77;
+}
+#main > .main_sess > section .footer > .row > .form > * {
+  color: white;
+}
+#main > .main_sess > section .footer > .row > .form > div {
+  background-color: #28292a;
+  border: 3px solid #28292A;
+}
+#main > .main_sess > section .footer > .row > .form > div > input {
+  outline: none;
+  caret-color: #004A77;
+  background-color: #1f1f1f;
+  color: white;
+}
+#main > .main_sess > section .footer > .row > .form > div > textarea {
+  outline: none;
+  caret-color: #004A77;
+  background-color: #1f1f1f;
+  color: white;
+}
+#main > .main_sess > section .footer > .row > .form > div > button {
+  background-color: #004A77;
+  color: #c2e7ff;
+}
+#main > .main_sess > section .footer > .row > .form > div > button:hover {
+  background-color: #c2e7ff;
+  color: #004A77;
+}
+#main > .main_sess > section .footer_bottom {
+  background-color: #28292A;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(1) figure {
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(1) figure > img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50;
+  box-shadow: 0px 0px 0px 10px #0F0F0F;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div {
+  display: flex;
+  justify-content: center;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div:nth-of-type(1) > h3 {
+  font-size: 20px;
+  color: white;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div:nth-of-type(2) > a {
+  text-decoration: none;
+  margin-left: 7px;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
+  transform: scale(1.3);
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div:nth-of-type(2) > a > i {
+  color: #004A77;
+  font-size: 20px;
+}
+#main > .main_sess > section .footer_bottom .row > div:nth-of-type(2) > div:nth-of-type(3) {
+  color: white;
+  font-size: 10px;
+}/*# sourceMappingURL=master.css.map */
